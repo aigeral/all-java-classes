@@ -1,0 +1,51 @@
+BDD Scenarios.
+1)nomad-gps.com
+Acceptance criteria- The user should receive a call back from the site
+Given -Open the browser chrome
+When - Open the site www.nomad-gps.com
+And- Click on the button "Calling back"
+And- Fill your name in the "name field"
+And - Enter your telephone number in the contact number
+And - Specify a convenient time to call in the column "Convenient time"
+And -enter the captcha in the field "Enter the code from the image"
+Then- The command should be displayed "your application has been successfully sent"
+2)Hilton.com
+Acceptance criteria- The user should see the displayed list of hotels according
+to the specified data in the filter.
+Given- Open the site www.Hilton.com
+When- Click on  "Where to"
+And- User should add City
+And- User clicks on button "data"
+And- User fills in the required date
+And- User clicks on  "Room"
+And -User add required room
+And-User clicks on the button "Find a hotel"
+Then- User sees a list of hotels with prices according to the request
+3)Lego.com
+Acceptance criteria- The user should see a list of products in the "sets by theme" section
+Given-Open the site "Lego.com"
+When- User clicks the button "SHOP"
+And-User should click on "sets by theme"
+Then - User sees list of the products
+4)Webull application
+Acceptance criteria- The application should show current quotes on the stock market
+Given- Open the Webull app
+When- user should clicks on the button "sign up"
+And- User should enter mobile number
+And- User should create the password
+And- Click on "markets"
+Then- The user should see the current stock market quotes
+5) Thekimchi.pro
+Acceptance criteria-The user must book a table
+Given-Open the site www.thekimchi.pro
+When- User should click on book a table
+And-User should enter name
+And User should fill Date(time)
+And-User should enter number of people
+And- User should fill telephone number
+Then - User should see a message "Your request has been successfully processed."
+
+
+
+
+
