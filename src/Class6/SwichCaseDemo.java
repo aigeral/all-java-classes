@@ -14,8 +14,7 @@ public class SwichCaseDemo {
             case "afghanistan":
                 System.out.println("Kebab");
                 break;
-            default:
-                System.out.println("Wrong country");
+
         }
 
     }
