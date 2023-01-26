@@ -1,16 +1,15 @@
 package Class10;
 
-public class ForEachLoopDemo3 {
+import java.util.Arrays;
+
+public class ForEachLoopDemo4 {
     public static void main(String[] args) {
 
 
         int[] arr={10,13,20,25,45,50};
 
-        for(int x:arr){
-            if(x%2!=0){
-                x=0;
-            }
+        System.out.println(Arrays.toString(arr));
             
         }
     }
-}
+
