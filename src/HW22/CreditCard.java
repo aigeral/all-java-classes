@@ -1,6 +1,6 @@
 package HW22;
 
-public class CreditCard {
+public class  CreditCard {
     //Create a class CreditCard and define variable balance and interest.
     // Create an instance method that will calculate interest based on the given balance.
     //Create 2 subclasses: Visa and AX.

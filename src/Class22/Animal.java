@@ -5,6 +5,8 @@ public class Animal {
     String color;
     int age;
     double weight;
+
+
     void speak (){
         System.out.println("Animals can speak");
     }
